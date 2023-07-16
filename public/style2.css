@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
-
 body {
-font-family: 'Noto Sans', sans-serif;    display: flex;
+    display: flex;
     justify-content: center;
     align-content: center;
     background-image: url(/images/spotify-background.jpeg);
@@ -10,25 +8,6 @@ font-family: 'Noto Sans', sans-serif;    display: flex;
     background-attachment: fixed;
     background-size: cover;
     background-color: rgb(186, 186, 243);
-}
-
-h1{
-  background-color: #1ed760;
-  padding: 10px;
-  width: 100%;
-  font-size: 60px;
-  color: #fbf8f8;
-  text-align: center;
-}
-
-h2{
-  background-color: #ffffff;
-  opacity: .6;
-  padding: 10px;
-  width: 100%;
-  font-size: 20px;
-  color: #040404;
-  text-align: center;
 }
 
 .seach-form {
@@ -42,13 +21,13 @@ h2{
 
 }
 
-form {
+/* form {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
     
-}
+} */
 
 .search {
     width: 350px;
@@ -64,46 +43,32 @@ select:focus, select:hover {
     
 }
 .submit {
-  background-color: #1ed760;
-    color: rgb(10, 10, 10);
+    background-color: rgb(246, 62, 62);
+    color: white;
     border: none;
     font-size: 18px;
     padding: 10px;
 }
 
+.container-results {
+    text-align:center ;
+    display: flex;
 
+}
 
 /* Estilos generales */
-.container-artist {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.container-cards {
-  margin-left: 30px;
-}
-
 .artist-cards {
-  margin-left: 30px;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
 
 .artist-card {
-  text-align: center;
   width: 300px;
   background-color: #f4f4f4;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.img-artist {
-  width: 300px;
-  height: 370px;
-
 }
 
 .artist-card img {
@@ -121,43 +86,14 @@ select:focus, select:hover {
 .artist-card a.btn {
   display: inline-block;
   padding: 8px 16px;
-  background-color: #1ed760;
+  background-color: #0070f3;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
 }
 
 .artist-card a.btn:hover {
-  background-color: #038130
+  background-color: #0050c8;
 }
-
-.container-artist {
-  color: #fbf8f8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.tracks-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-.track-card {
-margin: 30px;
-}
-
-.btn-index {
-  background-color: #ffffff;
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 20px;
-  color: #040404;
-  text-decoration: none;
-  text-decoration-line: none
-
-}
-
 
   
